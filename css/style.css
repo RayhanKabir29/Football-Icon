@@ -90,6 +90,26 @@ nav > ul > li > a {
 .player img {
   width: 100%;
 }
+/* Blog Area CSS */
+.blogs {
+  column-gap: 25px;
+  row-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.blog {
+  display: flex;
+}
+.blog-info {
+  margin-left: 20px;
+}
+.blog-info a h2 {
+  color: #000;
+  font-size: 22px;
+}
+.blog-tmubnail img {
+  width: 100%;
+}
 /* Article CSS */
 .highlights {
   display: flex;
@@ -118,6 +138,46 @@ nav > ul > li > a {
 .highlight-img img {
   width: 100%;
 }
+/* NewsLetter CSS */
+#newsletter {
+  margin-top: 40px;
+  padding: 30px 80px;
+  background: #2d25a0;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 50px 0;
+}
+.subscribe h1 {
+  padding-bottom: 60px;
+  color: #fff;
+  font-weight: 400;
+}
+.contact-mail {
+  width: 32%;
+  padding: 20px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+  margin-bottom: 35px;
+}
+
+.contact-mail:focus {
+  outline: 0;
+}
+.contact-mail::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+}
+.btn-send {
+  padding: 10px 45px;
+  border-radius: 25px;
+  background: #e02c6d;
+  color: #fff;
+}
+
 /* Footer CSS */
 footer {
   display: flex;
@@ -178,7 +238,37 @@ footer img {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
-  .player {
+  .blogs {
+    padding: 23px;
+    margin-top: 30px;
+    row-gap: 27px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-info {
+    margin: 0;
+  }
+  #newsletter {
+    margin-top: 40px;
+    background: #2d25a0;
+  }
+  .subscribe h1 {
+    font-size: 14px;
+    padding-bottom: 12px;
+    color: #fff;
+    font-weight: 400;
+  }
+  .contact-mail {
+    width: 100%;
+  }
+  .contact-mail::placeholder {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
   }
   .highlights {
     display: flex;

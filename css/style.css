@@ -37,6 +37,9 @@ nav ul {
   background: #e02c6d;
   padding: 9px 25px;
 }
+.login-btn a .icon {
+  margin-right: 10px;
+}
 nav > ul > li {
   display: inline-block;
 
